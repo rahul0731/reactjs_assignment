@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import {SliderContainer} from './component/slidercontainer';
-import { VolumeSlider } from './component/VolumeSlider';
-import {Slider } from './component/slider'
-import { RangeSlider } from './component/rangeSlider'
 ReactDOM.render(
   <SliderContainer/>,
   document.getElementById('root')
