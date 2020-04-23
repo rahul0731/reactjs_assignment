@@ -1,0 +1,63 @@
+.sliderStyle{                                          
+    position: 'relative';
+    height: '8rem';
+    width: '2rem';
+    margin-left :'8rem';
+  }
+  
+  
+  .railStyle {
+    position: 'absolute';
+    width: '25%';
+    height: '9.2rem';
+    margin-Top: 35;
+    border-radius: 5;
+    background-color: '#8B9CB6';
+  }
+  
+  .value{
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 11;
+  margin-left: -1.5rem;
+  color: white;
+  margin-top: -0.5rem;
+  background-color: rgba(187, 187, 179, 0.253);
+  width: 1.6rem;
+  }
+
+
+  /* //Handler*/
+  .handler {
+
+  position: absolute;
+  margin-left: -9;
+  margin-top: 37;
+  z-index: 2;
+  width: 1.5rem;
+  height: 10;
+  border: 0;
+  text-align:center;
+  cursor: pointer;
+  /* // borderRadius: '50%', */
+  background-color: #2C4870;
+  color: #333;
+
+}
+
+
+
+
+  /* Tracker */
+  .tracker{
+        
+    position: 'absolute';
+    
+    margin-top: '35.8';
+    margin-left:3.8;
+    z-index: 1;
+    background-color: '#546C91';
+    /* // borderRadius: 5, */
+    cursor: 'pointer';
+    width: 6.5;
+    transform: 'translate(-50%, 0%)';
+  }
