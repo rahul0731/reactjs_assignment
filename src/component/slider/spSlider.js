@@ -1,6 +1,6 @@
 import { Slider, Rail, Handles, Tracks, Ticks } from "react-compound-slider";
 import React, { Component } from 'react';
-const sliderStyle = {  //give the slider some width
+const sliderStyle = { 
     position: 'relative',
     height: '8rem',
     width: '2rem',
